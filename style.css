@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../imgs/img_X.svg');
+}
+
+html {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.nome {
+    color: grey;
+    padding-left: 20px;
+}
+
+button {
+    color: white;
+    font-size: 20px;
+    background-color: transparent;
+    padding: 8px;
+    border-radius: 16px;
+    width: 45px;
+    margin: 25px;
+    border: solid;
+    border-width: medium;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.div_setas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.album {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    margin: 50px;
+}
+
+.musicas {
+    list-style-type: none;
+    color: white;
+    border: solid;
+    border-width: thin;
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+    width: 40vh;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3)
+}
+
+.imgAlbum {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
